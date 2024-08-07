@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up/In</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="shortcut icon" href="../icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="links-container">
+          <li class="link-item"><a href="../index.html">Travel</a></li>
+          <li class="link-item"><a href="explore.html">Explore</a></li>
+          <li class="link-item">
+            <a href="#"><img src="../img/logo.png" class="logo" alt="" /></a>
+          </li>
+          <li class="link-item"><a href="services.html">Services</a></li>
+          <li class="link-item"><a href="booknow.html">Book Now</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <div class="form-box">
+        <div class="button-box">
+          <div class="btn" id="btn"></div>
+          <button type="button" class="toggle-btn" id="toggi" onclick="login()">
+            <strong><b>Log in</b></strong>
+          </button>
+          <button
+            type="button"
+            class="toggle-btn"
+            id="toggi"
+            onclick="signup()"
+          >
+            <strong><b>Sign up</b></strong>
+          </button>
+        </div>
+        <div class="input_form">
+          <form id="login" class="input-group">
+            <input
+              type="email"
+              class="input-field"
+              placeholder="Email"
+              required
+            />
+            <input
+              type="password"
+              class="input-field"
+              placeholder="Password"
+              required
+            />
+            <input type="checkbox" class="check-box" id="required" /><span
+              ><label for="required">Remember Password</label></span
+            >
+            <button type="submit" class="submit-btn">
+              <strong>Log in</strong>
+            </button>
+          </form>
+          <form id="signup" class="input-group">
+            <input
+              type="text"
+              class="input-field"
+              placeholder="User Id"
+              required
+            />
+            <input
+              type="email"
+              class="input-field"
+              placeholder="Email"
+              required
+            />
+            <input
+              type="password"
+              class="input-field"
+              placeholder="Password"
+              required
+            />
+            <input type="checkbox" class="check-box" id="required"/><span
+              ><label for="required">I agree to the terms & conditions</label></span
+            >
+            <button type="submit" class="submit-btn">
+              <strong> Sign Up</strong>
+            </button>
+          </form>
+        </div>
+        <div class="social-icons" id="social-icons">
+          <img src="../img/instagram.png" alt="instagram" />
+          <img src="../img/facebook.png" alt="facebook" />
+          <img src="../img/twitter.png" alt="twitter" />
+          <img src="../img/linkedin.png" alt="linkedin" />
+        </div>
+      </div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>

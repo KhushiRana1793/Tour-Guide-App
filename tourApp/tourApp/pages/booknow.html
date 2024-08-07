@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>booknow</title>
+    <link rel="stylesheet" href="booknow.css" />
+    <link rel="shortcut icon" href="../icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header>
+      <nav class="navbar">
+        <ul class="links-container">
+          <li class="link-item"><a href="../index.html">Travel</a></li>
+          <li class="link-item"><a href="explore.html">Explore</a></li>
+          <li class="link-item"><a href="services.html">Services</a></li>
+          <li class="link-item">
+            <a href="#"><img src="../img/logo.png" class="logo" alt="" /></a>
+          </li>
+          <li class="link-item active"><a href="booknow.html">Book Now</a></li>
+          <li class="link-item">
+            <a href="login.html">Sign Up/Sign In</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="book_image">
+      <img
+        src="../img/img6.png"
+        class="background_booking"
+        alt="scroll down indicator"
+      />
+
+      <div class="service_box">
+        <div class="service_card">
+          <div class="card">
+            <div class="card_detail">
+              <img
+                src="../img/airplane.png"
+                class="aeroplane_card"
+                alt="aeroplane"
+              />
+            </div>
+            <div class="card_name">
+              <p class="aeroplane_text"><b>Flights</b></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_detail">
+              <img src="../img/train.png" class="train_card" alt="train" />
+            </div>
+            <div class="card_name">
+              <p class="train_text"><b>Trains</b></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_detail">
+              <img src="../img/bus.png" class="bus_card" alt="Buses" />
+            </div>
+            <div class="card_name">
+              <p class="bus_text"><b>Buses</b></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_detail">
+              <img src="../img/cabs.png" class="cabs_card" alt="Cabs" />
+            </div>
+            <div class="card_name">
+              <p class="cabs_text"><b>Cabs</b></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_detail">
+              <img src="../img/hotel.png" class="hotel_card" alt="Hotel" />
+            </div>
+            <div class="card_name">
+              <p class="hotel_text"><b>Hotels</b></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_detail">
+              <img
+                src="../img/homestay.png"
+                class="homestay_card"
+                alt="Homestays"
+              />
+            </div>
+            <div class="card_name_stay">
+              <p class="homestay_text"><b>Homestays</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="booking">
+        <div class="journey">
+          <div class="journey_service">
+            <input type="radio" id="one_way" name="one_way" value="One Way" />
+            <label for="one_way">One Way</label>
+            <input
+              type="radio"
+              id="round_trip"
+              name="one_way"
+              value="Round Trip"
+            />
+            <label for="round_trip">Round Trip</label>
+          </div>
+
+          <div class="ad">
+            <p>Book International and Domestic</p>
+          </div>
+        </div>
+
+        <div class="trip">
+          <div class="location_first">
+            <div class="from"><p>From</p></div>
+            <div class="journey_from">
+              <input type="search" class="search_first" />
+            </div>
+          </div>
+
+          <div class="location_second">
+            <div class="to"><p>To</p></div>
+            <div class="journey_to">
+              <input type="search" class="search_second" />
+            </div>
+          </div>
+
+          <div class="date_first">
+            <div class="depature"><p>Depature</p></div>
+            <div class="date_from">
+              <input type="date" class="search_date_from" />
+            </div>
+          </div>
+
+          <div class="date_second">
+            <div class="return"><p>Return</p></div>
+            <div class="date_to">
+              <input type="date" class="search_date_to" />
+            </div>
+          </div>
+        </div>
+
+        <div class="search_trip">
+          <button class="book-now">Book Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <img src="../img/logo.png" class="footer-logo" alt="" />
+      <div class="footer-text">
+        <p>Travel the world, on this holiday</p>
+        <p>Email - support@travel.com</p>
+        <p>Phone - 99 88 776655, 99 88 776644</p>
+      </div>
+      <p class="copyright-line">
+        This design is a concept design. Made by Kunal's Team ❤️
+      </p>
+    </footer>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
